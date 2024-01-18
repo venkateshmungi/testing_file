@@ -10,7 +10,7 @@ st.subheader("Your helpful coding companion")
 page_bg_img = '''
 <style>
 body {
-background-image: url("https://example.com/background.jpg");
+background-image: url("https://wallpaperaccess.com/full/2718668.jpg");
 background-size: cover;
 }
 </style>
