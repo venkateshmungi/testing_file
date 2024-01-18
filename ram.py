@@ -1,7 +1,8 @@
 import streamlit as st
 
 # Set the title of the app
-st.title("User Input Example")
+st.title("BHAARATHI-AI")
+st.subtitle("will be launched soon")
 
 # Create a text input field
 user_input = st.text_input("Enter some text:")
