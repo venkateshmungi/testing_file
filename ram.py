@@ -11,7 +11,7 @@ st.markdown(
     }
     h2.subtitle {
         font-size: 30px;
-        color: #333;
+        color: white;
         text-align: right;
     }
     </style>
