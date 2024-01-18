@@ -1,10 +1,25 @@
 import streamlit as st
 
 # Set the title of the app
-st.title("BHAARATHI-AI")
-
-# Add a subtitle
-st.subheader("Will be Launching Soon ....!!!")
+st.markdown(
+    """
+    <style>
+    h1.title {
+        font-size: 70px;
+        color: #0070f3;
+        text-align: right;
+    }
+    h2.subtitle {
+        font-size: 30px;
+        color: #333;
+        text-align: right;
+    }
+    </style>
+    <h1 class="title">BHAARATHI-AI</h1>
+    <h3 class="subtitle">Wii be launching soon</h3>
+    """,
+    unsafe_allow_html=True
+)
 
 # Add a background image
 def set_page_bg_img():
