@@ -1,10 +1,20 @@
 import streamlit as st
 
 # Set the title of the app
-st.title("Chatbot: A Bhaarathi-ai powered Coding Assistant")
+st.markdown(
+    """
+    <h1 style='font-size: 50px; color: #0070f3;'>CodeBot - A Streamlit and Langchain-powered Coding Assistant</h1>
+    """,
+    unsafe_allow_html=True
+)
 
 # Add a subtitle
-st.subheader("Your helpful coding companion")
+st.markdown(
+    """
+    <h2 style='font-size: 30px; color: #333;'>Your helpful coding companion</h2>
+    """,
+    unsafe_allow_html=True
+)
 
 # Add a background image
 def set_page_bg_img():
@@ -12,7 +22,7 @@ def set_page_bg_img():
         f"""
         <style>
         .stApp {{
-            background-image: url("https://wallpaperaccess.com/full/2718668.jpg");
+            background-image: url("https://example.com/background.jpg");
             background-attachment: fixed;
             background-size: cover;
         }}
