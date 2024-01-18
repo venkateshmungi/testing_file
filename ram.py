@@ -7,14 +7,15 @@ st.title("Chatbot: A Bhaarathi-ai powered Coding Assistant")
 st.subheader("Your helpful coding companion")
 
 # Add a background image
-st.markdown("""
+page_bg_img = '''
 <style>
 body {
-background-image: url("https://wallpaperaccess.com/full/2718668.jpg");
+background-image: url("https://example.com/background.jpg");
 background-size: cover;
 }
 </style>
-""", unsafe_allow_html=True)
+'''
+st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Create a text input field
 user_input = st.text_input("Enter some text:")
